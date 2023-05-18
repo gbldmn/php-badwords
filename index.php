@@ -12,15 +12,15 @@
 
 <div>
 
-<label for="">parola</label>
+<label for="">frase</label>
 <input type="text" placeholder="inserisci la frase" name="nomeFrase">
 
-<label for="">seconda parola</label>
+<label for="">parola da censurare</label>
 <input type="text" placeholder="inserisci seconda parola" name="nomeParolaCensurata">
 
 <button type="submit"> invia form </button>
 
- <?php var_dump('test');  ?> 
+ <!-- <?php var_dump('test');  ?>  -->
 </div>
 
 

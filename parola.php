@@ -8,14 +8,15 @@
 </head>
 <body>
     
-<p> <?php echo $_GET['nomeFrase']; ?> </p> 
-<p> <?php echo $_GET['nomeParolaCensurata']; 
+<span> <?php echo $_GET['nomeFrase'];  ?> </span> 
+<p>la frase è lunga: <?php echo strlen($_GET['nomeFrase']); ?></p>
+<p> <?php 
 echo str_replace ($_GET['nomeParolaCensurata'], '***', $_GET['nomeFrase']);
 
-echo strlen('nomeFrase');
+
 
 ?></p> 
- 
+ <p>la lunghezza finale è di : <?php echo strlen($_GET['nomeFrase']); ?></p>
 
 </body>
 </html>
