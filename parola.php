@@ -13,10 +13,11 @@
 <p> <?php 
 echo str_replace ($_GET['nomeParolaCensurata'], '***', $_GET['nomeFrase']);
 
+ $stringaModificata = str_replace($_GET['nomeParolaCensurata'], '***', $_GET['nomeFrase']);
 
-
-?></p> 
- <p>la lunghezza finale è di : <?php echo strlen($_GET['nomeFrase']); ?></p>
+?></p>
+ 
+ <p>la lunghezza finale è di :<?php echo strlen($stringaModificata); ?></p>
 
 </body>
 </html>
